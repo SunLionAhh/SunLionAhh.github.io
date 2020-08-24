@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客搭建教程, Web,HTML">
+    <meta name="keywords" content="Vue-声明式渲染, Web,HTML">
     <meta name="description" content="Zachary&#39;s blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>博客搭建教程 | 蓝墨の博客</title>
+    <title>Vue-声明式渲染 | 蓝墨の博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -415,12 +415,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/source/images/xxx.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">博客搭建教程</h1>
+                    <h1 class="description center-align post-title">Vue-声明式渲染</h1>
                 </div>
             </div>
         </div>
@@ -537,8 +537,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hello/">
-                                <span class="chip bg-color">hello</span>
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                            <a href="/tags/Typora/">
+                                <span class="chip bg-color">Typora</span>
+                            </a>
+                        
+                            <a href="/tags/Vue/">
+                                <span class="chip bg-color">Vue</span>
                             </a>
                         
                     </div>
@@ -553,7 +561,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-08-22
+                    2020-08-24
                 </div>
                 
 
@@ -569,7 +577,13 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World~~"></a>Hello World~~</h1><p>终于完事儿了。</p>
+                <h1 id="Vue-声明式渲染"><a href="#Vue-声明式渲染" class="headerlink" title="Vue-声明式渲染"></a>Vue-声明式渲染</h1><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">title</span>&gt;</span>Vue-声明式渲染<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/vue.js&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123; message &#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">	<span class="comment">/* 一定要记得new啊 */</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">new</span> Vue(&#123;</span></span><br><span class="line"><span class="javascript">		<span class="comment">/* 通过el绑定元素 #代表id .代表class */</span></span></span><br><span class="line"><span class="javascript">		el: <span class="string">&#x27;#app&#x27;</span>,</span></span><br><span class="line"><span class="javascript">		<span class="comment">/* 注意这里是冒号而不是括号或别的 */</span></span></span><br><span class="line">		data: &#123;</span><br><span class="line"><span class="javascript">			<span class="comment">/* 给el绑定到的元素里的属性赋值 */</span></span></span><br><span class="line"><span class="javascript">			message: <span class="string">&#x27;Hello World~~&#x27;</span>,</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;)</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h2><p><img src="./medias/loading.gif" data-original="http://www.zachary.host/img/20200824201052.png"></p>
+<h1 id="动态绑定提示信息"><a href="#动态绑定提示信息" class="headerlink" title="动态绑定提示信息"></a>动态绑定提示信息</h1><h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">title</span>&gt;</span>动态绑定提示信息<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/vue.js&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">			<span class="comment">&lt;!-- v-bind:title跟h1、span的不同没有关系，不影响 --&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">h1</span> <span class="attr">v-bind:title</span>=<span class="string">&quot;message&quot;</span>&gt;</span>请将鼠标悬停于我这文字之上，会有提示信息出来<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">span</span> <span class="attr">v-bind:title</span>=<span class="string">&quot;msg&quot;</span>&gt;</span>来，放我上面！<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">	<span class="comment">/* 一定要记得new啊 */</span></span></span><br><span class="line"><span class="javascript">	<span class="keyword">new</span> Vue(&#123;</span></span><br><span class="line"><span class="javascript">		<span class="comment">/* 通过el绑定元素 #代表id .代表class */</span></span></span><br><span class="line"><span class="javascript">		el: <span class="string">&#x27;#app&#x27;</span>,</span></span><br><span class="line"><span class="javascript">		<span class="comment">/* 注意这里是冒号而不是括号或别的 */</span></span></span><br><span class="line">		data: &#123;</span><br><span class="line"><span class="javascript">			<span class="comment">/* 给el绑定到的元素里的属性赋值 */</span></span></span><br><span class="line"><span class="javascript">			message: <span class="string">&#x27;Hello World~~&#x27;</span>,</span></span><br><span class="line"><span class="javascript">			<span class="comment">/* 字符串用单引号和双引号引起来没区别， new Date()，Date一定要加括号*/</span></span></span><br><span class="line"><span class="javascript">			msg: <span class="string">&quot;现在的时间是&quot;</span>+<span class="keyword">new</span> <span class="built_in">Date</span>().toLocaleString()</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;)</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="效果截图"><a href="#效果截图" class="headerlink" title="效果截图"></a>效果截图</h2><p><img src="./medias/loading.gif" data-original="http://www.zachary.host/img/20200824204249.png"></p>
+<p><img src="./medias/loading.gif" data-original="http://www.zachary.host/img/20200824204205.png"></p>
 
             </div>
             <hr/>
@@ -595,7 +609,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://zachary.host/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.html">http://zachary.host/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.html</a>
+                    <a href="http://zachary.host/Vue-%E5%A3%B0%E6%98%8E%E5%BC%8F%E6%B8%B2%E6%9F%93.html">http://zachary.host/Vue-%E5%A3%B0%E6%98%8E%E5%BC%8F%E6%B8%B2%E6%9F%93.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -633,8 +647,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hello/">
-                                    <span class="chip bg-color">hello</span>
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
+                                <a href="/tags/Typora/">
+                                    <span class="chip bg-color">Typora</span>
+                                </a>
+                            
+                                <a href="/tags/Vue/">
+                                    <span class="chip bg-color">Vue</span>
                                 </a>
                             
                         </div>
@@ -805,7 +827,7 @@
         repo: 'sunlionahh.github.io',
         owner: 'SunLionAhh',
         admin: "SunLionAhh",
-        id: '2020-08-22T22-32-01',
+        id: '2020-08-24T17-28-54',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -829,9 +851,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/Vue-%E5%A3%B0%E6%98%8E%E5%BC%8F%E6%B8%B2%E6%9F%93.html">
                     <div class="card-image">
@@ -848,9 +871,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -859,6 +882,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -885,19 +909,20 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/hello-world.html">
+                <a href="/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.html">
                     <div class="card-image">
                         
                         
-                        <img src="./medias/loading.gif" data-original="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="./medias/loading.gif" data-original="/medias/featureimages/23.jpg" class="responsive-img" alt="博客搭建教程">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">博客搭建教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            Hello World~~终于完事儿了。
+
                         
                     </div>
                     <div class="publish-info">
@@ -911,6 +936,14 @@
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hello/">
+                        <span class="chip bg-color">hello</span>
+                    </a>
+                    
                 </div>
                 
             </div>
